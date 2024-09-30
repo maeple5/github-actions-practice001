@@ -2,7 +2,8 @@ name: Conditions workflow
 on: push
 jobs:
   skip-or-run:
-    if: ${{ github.actor == 'maeplego' }}
+    if: ${{ github.actor == 'maeple5' }}
+    #  github.actor == 'maeplego'
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello"
